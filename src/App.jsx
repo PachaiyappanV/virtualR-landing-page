@@ -1,6 +1,7 @@
 import Feature from "./components/Feature";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Workflow from "./components/Workflow";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <Feature />
+      <Workflow />
     </>
   );
 }
